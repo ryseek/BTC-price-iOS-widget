@@ -76,6 +76,8 @@
 		0C10D2DA1F6DA73500C0D372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C1B70991F784BC100234987 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		0C1B709E1F78527300234987 /* CryptoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoAPI.swift; sourceTree = "<group>"; };
+		0C69F1C3200D0DBC007C620B /* BTCwidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCwidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C69F1C4200D0DBC007C620B /* BTCwidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCwidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7E33BB1F7E9CF60098DA76 /* DiffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffView.swift; sourceTree = "<group>"; };
 		0CB77C891F781F1000C0CF5A /* UsefulFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsefulFunctions.swift; sourceTree = "<group>"; };
 		0CFC8ECD1F9B5EC30082C8E0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,20 +89,12 @@
 		0CFF3DB51F634917006112DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CFF3DB81F634917006112DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CFF3DBA1F634917006112DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CFF3DBF1F634918006112DA /* BTCwidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BTCwidgetTests.xctest; path = "/Users/ryseek/GitHub/webScrapper/build/Debug-iphoneos/BTCwidgetTests.xctest"; sourceTree = "<absolute>"; };
-		0CFF3DCA1F634918006112DA /* BTCwidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BTCwidgetUITests.xctest; path = "/Users/ryseek/GitHub/webScrapper/build/Debug-iphoneos/BTCwidgetUITests.xctest"; sourceTree = "<absolute>"; };
-		20DF90DC52BE09D44A3C2FFB /* Pods-webScrapper-Crypto Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webScrapper-Crypto Today.release.xcconfig"; path = "Pods/Target Support Files/Pods-webScrapper-Crypto Today/Pods-webScrapper-Crypto Today.release.xcconfig"; sourceTree = "<group>"; };
-		2453D35FF58ECB2E47BF0FE1 /* Pods-webScrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webScrapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-webScrapper/Pods-webScrapper.release.xcconfig"; sourceTree = "<group>"; };
 		33DBD3B14C189DAFB7D5BFA7 /* Pods-BTCwidget-Crypto Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCwidget-Crypto Today.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCwidget-Crypto Today/Pods-BTCwidget-Crypto Today.release.xcconfig"; sourceTree = "<group>"; };
-		581561B8D724BE24DA016251 /* Pods-Crypto Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Today.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Today/Pods-Crypto Today.release.xcconfig"; sourceTree = "<group>"; };
 		5B125C49CE9F4287CD11DE0F /* Pods_webScrapper_Crypto_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webScrapper_Crypto_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		643A6CBD1F2CAC64F619FC96 /* Pods_BTCwidget_Crypto_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCwidget_Crypto_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7148CA660B2952D1BE24E7D0 /* Pods-BTCwidget-Crypto Today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCwidget-Crypto Today.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCwidget-Crypto Today/Pods-BTCwidget-Crypto Today.debug.xcconfig"; sourceTree = "<group>"; };
 		7F7CE94089FF7CD6C15B473F /* Pods_webScrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webScrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2536D04590AB5F0DAFA50B4 /* Pods_webScrapperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webScrapperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD396706CF96608A9BBFD3DE /* Pods-webScrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webScrapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webScrapper/Pods-webScrapper.debug.xcconfig"; sourceTree = "<group>"; };
-		D19756378D2D4A928CFA97D9 /* Pods-webScrapper-Crypto Today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webScrapper-Crypto Today.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webScrapper-Crypto Today/Pods-webScrapper-Crypto Today.debug.xcconfig"; sourceTree = "<group>"; };
-		D28D0AC6D5A5A407FE85AA77 /* Pods-Crypto Today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Today.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Today/Pods-Crypto Today.debug.xcconfig"; sourceTree = "<group>"; };
 		D35D64246F4F2A3520888C73 /* Pods-BTCwidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCwidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCwidget/Pods-BTCwidget.release.xcconfig"; sourceTree = "<group>"; };
 		E2899B08A99102198A2D674F /* Pods-BTCwidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCwidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCwidget/Pods-BTCwidget.debug.xcconfig"; sourceTree = "<group>"; };
 		EE228B99B9F1D52BCE16BE63 /* Pods_Crypto_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +172,8 @@
 			children = (
 				0CFF3DAB1F634917006112DA /* BTCwidget.app */,
 				0C10D2D11F6DA73500C0D372 /* Crypto Today.appex */,
+				0C69F1C3200D0DBC007C620B /* BTCwidgetTests.xctest */,
+				0C69F1C4200D0DBC007C620B /* BTCwidgetUITests.xctest */,
 			);
 			name = Products;
 			path = ..;
@@ -199,12 +195,6 @@
 		87CD7D4F7446CA019A593150 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD396706CF96608A9BBFD3DE /* Pods-webScrapper.debug.xcconfig */,
-				2453D35FF58ECB2E47BF0FE1 /* Pods-webScrapper.release.xcconfig */,
-				D19756378D2D4A928CFA97D9 /* Pods-webScrapper-Crypto Today.debug.xcconfig */,
-				20DF90DC52BE09D44A3C2FFB /* Pods-webScrapper-Crypto Today.release.xcconfig */,
-				D28D0AC6D5A5A407FE85AA77 /* Pods-Crypto Today.debug.xcconfig */,
-				581561B8D724BE24DA016251 /* Pods-Crypto Today.release.xcconfig */,
 				E2899B08A99102198A2D674F /* Pods-BTCwidget.debug.xcconfig */,
 				D35D64246F4F2A3520888C73 /* Pods-BTCwidget.release.xcconfig */,
 				7148CA660B2952D1BE24E7D0 /* Pods-BTCwidget-Crypto Today.debug.xcconfig */,
@@ -290,7 +280,7 @@
 			);
 			name = BTCwidgetTests;
 			productName = webScrapperTests;
-			productReference = 0CFF3DBF1F634918006112DA /* BTCwidgetTests.xctest */;
+			productReference = 0C69F1C3200D0DBC007C620B /* BTCwidgetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0CFF3DC91F634918006112DA /* BTCwidgetUITests */ = {
@@ -308,7 +298,7 @@
 			);
 			name = BTCwidgetUITests;
 			productName = webScrapperUITests;
-			productReference = 0CFF3DCA1F634918006112DA /* BTCwidgetUITests.xctest */;
+			productReference = 0C69F1C4200D0DBC007C620B /* BTCwidgetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
